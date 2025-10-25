@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital@0;1&family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,700;1,14..32,700&family=Outfit:wght@900&family=Young+Serif&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  background-color: hsl(330, 100%, 98%);
+}
+
+.card {
+  width: 500px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 2rem;
+  margin: 50px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+.details {
+  color: hsl(0, 0%, 39%);
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+.card-image img {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border-radius: 12px;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+.second-content {
+  /* margin-top: 1.3rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 1rem ; */
+  padding-top: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  line-height: 2;
+}
+
+#title {
+  color: hsl(0, 5%, 23%);
+  font-weight: bolder;
+}
+
+hr {
+  color: hsl(30, 18%, 87%);
+  margin: 0, 1px, 0, 1px;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+.third-content {
+  /* margin: 1rem; */
+  /* line-height: 1.8; */
+  /* padding-top: 0.1rem; */
+  list-style: inside;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  ul {
+    /* margin-left: 12px; */
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+.fourth-content {
+  /* padding: 1rem; */
+  /* line-height: 1.5; */
+  list-style: inside;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  ol {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+.gray {
+  color: hsl(0, 1%, 19%);
+  font-size: 12px;
+}
+
+.fifth-content {
+  padding: 1rem;
+  margin: 2rem, 1rem, 1rem, 1rem;
+  line-height: 1.5;
+}
+
+/* table,
+tr {
+  width: 100%;
+  border-spacing: 18px;
+  border-radius: 30px;
+
+  border-style: none;
+  border-color: 10px solid hsl(30, 18%, 87%);
+} */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  tr {
+    text-align: center;
+    /* border: 1px solid hsl(30, 18%, 87%); */
+
+    td,
+    th {
+      padding: 10px;
+      /* border: 1px solid hsl(30, 18%, 87%); */
+    }
+  }
+}
+
+table {
+   width: 375px;
+  border-collapse: collapse;
+}
+
+tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+
+.value {
+  color: hsl(14, 45%, 36%);
+  font-weight: bolder;
+}
+.key {
+  color: hsl(0, 5%, 23%);
+}
